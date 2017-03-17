@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Urdu Keyboard</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_keyboard">Urdu Keyboard Light</string>
+    <string name="sybtype_en_US">Urdu</string>
+</resources>

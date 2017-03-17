@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:andriod="http://schemas.android.com/apk/res-auto"
+          android:keyWidth="12.5%p"
+          android:horizontalGap="0px"
+          android:verticalGap="0dp"
+          android:keyHeight="50dp">
+
+    <Row>
+        <Key android:codes="-5" android:keyIcon="@drawable/del" android:isRepeatable="true" android:keyEdgeFlags="left"/>
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ژزڑر" android:keyLabel="ر"/>
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ذ\aڈ\aد" android:keyLabel="د"/>
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="خ\aح" android:keyLabel="ح"/>
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="چ\aج" android:keyLabel="ج"/>
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ث\aٹ\aت" android:keyLabel="ت"/>
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="پ\aب" android:keyLabel= "ب"/>
+        <Key android:keyLabel="ا" android:keyEdgeFlags="right" android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="اآ" />
+    </Row>
+    <Row>
+        <Key android:keyLabel="م" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="ل" />
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ق\aگ\aک" android:keyLabel="ک" />
+        <Key android:keyLabel="ف" />
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="غ\aع" android:keyLabel="ع" />
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ظ\aط" android:keyLabel="ط" />
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ش\aس" android:keyLabel="س"/>
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ض\aص" android:keyLabel="ص" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="502" android:keyIcon="@drawable/numbers" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="؟" android:keyWidth="10%p" />
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="،-" android:keyLabel="-"/>
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ۓ\aے" android:keyLabel="ے"/>
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ئ\aی" android:keyLabel="ی"/>
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ھ\aہ" android:keyLabel="ہ" />
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ؤو" android:keyLabel="و"/>
+        <Key android:popupKeyboard="@xml/keyboard_popup_template"
+             android:popupCharacters="ں\aن" android:keyLabel="ن" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom" android:horizontalGap="0dp">
+        <Key android:codes="500" android:keyIcon="@drawable/smiley" android:keyWidth="14%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="-101" android:keyIcon="@drawable/globe" android:keyWidth="14%p" />
+        <Key android:codes="32" android:keyIcon="@drawable/space" android:keyWidth="45%p" />
+        <Key android:keyLabel="!" android:keyWidth="10%p" />
+        <Key android:codes="-4" android:keyIcon="@drawable/enter" android:keyWidth="17%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
