@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <uses-permission android:name="android.permission.BIND_INPUT_METHOD"/>
+<!--        <uses-permission android:name="android.permission.BIND_INPUT_METHOD"/>-->
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
