@@ -18,5 +18,5 @@ Technical Details:
 ## Demo Running App
 [![Video Instructions to Run Code](https://i.ytimg.com/vi/H7Pt1kdGP5M/hqdefault.jpg)](https://www.youtube.com/watch?v=H7Pt1kdGP5M)
 
-## Screenshot og App
+## Screenshots
 <img src="Screenshot_20190829-160019_Messages.jpg" width="200px" height="411px" hspace="6"> <img src="Screenshot_20190829-160028_Messages.jpg" width="200px" height="411px" hspace="6"><img src="Screenshot_20190829-160121_Messages.jpg" width="200px" height="411px" hspace="6">
